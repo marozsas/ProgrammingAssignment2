@@ -7,8 +7,9 @@ To do this, simply copy-paste the definition of the two objects: makeCacheMatrix
 ### puting them to work
 
 Create an object my_matrix, initializing it with a random 4x4 matrix.
-(I believe this is the same as 'my_matrix$set (matrix (runif(16), 4, 4))' )
-Use 'set.seed' to make this reproductible and get the matrix just to inspecting it
+(I believe this is the same as my_matrix$set (matrix (runif(16), 4, 4)) )
+Use set.seed to make this reproductible and get the matrix just to inspecting it
+
 
 set.seed(10)
 my_matrix <- makeCacheMatrix(matrix (runif(16), 4, 4))
